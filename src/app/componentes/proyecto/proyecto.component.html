@@ -1,20 +1,20 @@
 <div class="row">
-    <h1>Proyectos</h1>
-    <div class="col-lg-2">
-        <button type="button" class="btn btn-light" routerLink="/nuevoproyecto" *ngIf="isLogged">
+    <h2>Proyectos</h2>
+    <div class="col-lg-2 mi">
+        <button type="button" class="btn btn-light btn2" routerLink="/nuevoproyecto" *ngIf="isLogged">
             Agregar Proyecto
         </button>
     </div>
 
-    <div class="col lg 1"></div>
-    <div class="col-lg-11">
-        <table class="table">
+    <div class="col lg 1 mi"></div>
+    <div class="col-lg-11 mi">
+        <table class="table mi">
             <tbody>
                 <tr *ngFor="let Proyect of proyecto">
                     <td>
                         <h2>{{Proyect.nombre}}</h2>
                     </td>
-                    <td>{{Proyect.descripcion}}</td>
+                    <td class="grr">{{Proyect.descripcion}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editproyecto/{{Proyect.id}}"><i class="bi bi-pencil-square"></i> EDITAR</button>
                     </td>

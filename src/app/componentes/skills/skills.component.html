@@ -1,5 +1,6 @@
 <div class="row">
-    <div class="col-lg-2">
+    <h2>Hard & Soft Skills</h2>
+    <div class="col-lg-2 mi">
         <button type="button" routerLink="/newskill" class="btn btn-light" *ngIf="isLogged">Nueva Skill</button>
     </div>
     <div class="text-center col-sm-4 col-md-4 col-lg-4 mi " *ngFor="let skill of skill1">
@@ -11,20 +12,20 @@
         [imageSrc]="''"
         [showTitle]="true"
         [showImage]="false"
-        [showUnits]="true"
+        [showUnits]="false"
         [imageHeight]="60"
         [imageWidth]="60"
         [showBackground]="true"
         [backgroundStroke]="'transparent'"
-        [backgroundColor]="'#4a4a4a'"
+        [backgroundColor]="'#fcfdff'"
         [backgroundOpacity]="6"
         [backgroundStrokeWidth]="1"
         [outerStrokeWidth]="13"
         [innerStrokeWidth]="4"
-        [outerStrokeColor]="'#ffffff'"
+        [outerStrokeColor]="'#000000'"
         [innerStrokeColor]="'#c9c7c7'"
         [animation]="true"
-        [animationDuration]="300"
+        [animationDuration]="500"
     ></circle-progress>
  
         <td *ngIf="isLogged">

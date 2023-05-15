@@ -15,21 +15,21 @@ h3, h2, h4 {
     padding-left: 55px;
 }
 
+td{
+    color: white;
+}
+
 .mi{
     background: none;
-    padding-left: 20px;
+    
 }
 
-.imag{
-    padding-top: 10px;
-    width: 200px;
+.btn2{
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
-.contenedor{
-    width: auto;
-}
-
-.parte1, .parte2{
-    display: inline-block;
-    text-align: justify;
+.grr{
+    padding-top: 40px;
+  
 }

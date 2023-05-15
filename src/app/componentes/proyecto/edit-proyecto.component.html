@@ -2,17 +2,23 @@
     <div class="row">
         <div>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <br>
                 <div class="form-group">
                     <label for="nombre">Nombre del proyecto</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="proyecto.nombre" required>
                 </div>
+                <br>
                 <div class="form-group">
                     <label for="descripcion">Descripcion del proyecto</label>
                     <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="proyecto.descripcion" required>
                 </div>
+                <br>
                 <button class="btn btn-primary">
                     Editar proyecto
                 </button>
+                <br>
+                <div></div>
+                <br>
             </form>
         </div>
     </div>

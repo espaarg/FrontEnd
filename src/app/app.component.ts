@@ -8,5 +8,5 @@ import { LogoArgProgComponent } from './componentes/logo-arg-prog/logo-arg-prog.
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ProyectoFinalLucasOrtiz';
+  title = 'FrontEndLucasOrtiz';
 }

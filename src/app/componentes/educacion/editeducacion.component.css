@@ -1,0 +1,7 @@
+.mi{
+    background: none;
+}
+.row{
+    background: linear-gradient(to right, rgb(8, 8, 8), rgb(53, 52, 52));
+    color: white;
+}
