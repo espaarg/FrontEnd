@@ -1,0 +1,40 @@
+div{
+    background: linear-gradient(to right, rgb(8, 8, 8), rgb(53, 52, 52));
+    color: white;
+    padding: 9px;
+    padding-left: 15px;
+    text-align: center;
+    font-family: arial;
+  
+}
+
+h2 {
+    text-shadow: 0px 0px 5px rgb(119, 117, 117);
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+#fotoperfil{
+ box-shadow: 0px 0px 10px rgb(255, 255, 255) ;
+ border-radius: 65px;
+ align-items: center;
+}
+}
+
+@media (min-width: 577px) {
+    #fotoperfil{
+     box-shadow: 0px 0px 10px  rgb(209, 209, 209) ;
+     border-radius: 35px;
+     align-items: center;
+    }
+}
+
+.mi{
+    margin-top: 60px;
+    background: none;
+}
+
+.mi2{
+    background: none;
+    margin-left: 0px;
+}

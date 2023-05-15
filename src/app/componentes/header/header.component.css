@@ -1,0 +1,8 @@
+div{
+    background: linear-gradient(to right, rgb(8, 8, 8), rgb(53, 52, 52))
+}
+
+app-sociales{
+   float: right;
+   margin-top: 25px;
+}

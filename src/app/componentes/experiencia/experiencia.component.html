@@ -1,0 +1,32 @@
+<div class="row">
+    <h2>Experiencia laboral</h2>
+    <div class="col-lg-2 mi">
+        <button type="button" class="btn btn-light" routerLink="/nuevaExperiencia" *ngIf="isLogged">
+            Nueva experiencia
+        </button>
+
+    </div>
+
+    <div class="col-lg-1 mi"></div>
+    <DIV class="col-lg-11 mi">
+        <table class="table ">
+            <tbody>
+                <tr *ngFor="let Experiencia of expe">
+                    <td><H2>{{Experiencia.nombreE}}</H2></td>
+                    <TD>{{Experiencia.descripcionE}}</TD>
+                    <TD *ngIf="isLogged"> 
+                        <button class="btn btn-light" routerLink="/editExperiencia/{{Experiencia.id}}"><i class="bi bi-pencil-square"></i>  EDITAR</button>
+                    </TD>
+                    <TD *ngIf="isLogged"> 
+                        <button class="btn btn-light" (click)="delete(Experiencia.id)"><i class="bi bi-trash3-fill"></i>  BORRAR</button>
+                    </TD>
+                </tr>
+    
+            </tbody>
+    
+    
+        </table>
+    </DIV>
+    
+
+</div>
